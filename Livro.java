@@ -11,6 +11,9 @@ class Livro extends Produto {
 		this.autor = autor;
 	}
 	
-	String getDescricao() {return descricao + " " + autor;}
+	@Override
+	String getDescricao() {
+		return descricao + " " + autor;
+	}
 	
 }

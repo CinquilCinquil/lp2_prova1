@@ -11,6 +11,9 @@ class Mouse extends Produto {
 		this.tipo = tipo;
 	}
 	
-	String getDescricao() {return descricao + " " + tipo;}
+	@Override
+	String getDescricao() {
+		return descricao + " " + tipo;
+	}
 	
 }
